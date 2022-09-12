@@ -40,16 +40,17 @@
 /* Fonts */
 
 h1 {
-    font: 700 5rem/6.5rem 'Lato', Helvetica, sans-serif; 
+    font: 900 5.1rem/6.5rem 'Lato', Helvetica, sans-serif; 
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.5rem;
 }
 
 #displayMessage {
     font: 400 1.7rem/2.7rem 'Lato', Helvetica, sans-serif; 
     text-transform: uppercase;
     padding: 0.75rem;
+    word-spacing: 0.2rem;
  }
 
 .btn {
