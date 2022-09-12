@@ -24,7 +24,7 @@
 }
 
 .box2 {
-    flex: 0 0 48%;
+    flex: 0 0 47%;
 }
 
 .box2 img {
@@ -47,7 +47,23 @@ h1 {
 }
 
 #displayMessage {
-    font: 400 1.75rem/2.75rem 'Lato', Helvetica, sans-serif; 
+    font: 400 1.7rem/2.7rem 'Lato', Helvetica, sans-serif; 
     text-transform: uppercase;
-    padding: 0.5rem;
+    padding: 0.75rem;
+ }
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    font: 400 1.1rem/1.1rem 'Lato', Helvetica, sans-serif; 
+    position: fixed;
+    color: white;
+    text-decoration: none;
+    z-index: 2;
+    padding: 1.8rem 0.2rem 1.4rem;
+    border: none;
+    cursor: pointer;
+ }
+
+ .btn:hover {
+    color: rgb(0, 115, 152);
  }

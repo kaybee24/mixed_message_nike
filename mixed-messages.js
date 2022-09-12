@@ -1,4 +1,4 @@
-let messages = [
+const messages = [
     { author: "Chris", content: "You cannot learn everything" },
     { author: "Miguel", content: "Let the small potato cook" },
     { author: "Jens", content: "There is no content because I'm boring" },
@@ -13,15 +13,14 @@ let messages = [
     { author: "Fabian", content: "I do 'git branch' now to see where the hell I am" },
 ]
 
-let generate = Math.floor(Math.random() * messages.length)
-let selectedMessage = messages[generate]
-
 // console.log(selectedMessage)
 
-document.getElementById("displayMessage").innerHTML = selectedMessage.content
-document.getElementById("displayAuthor").innerHTML = selectedMessage.author
-
-
+function newMessage() {
+    const generateMessage = Math.floor(Math.random() * messages.length)
+    const selectedMessage = messages[generateMessage]
+    document.getElementById("displayMessage").innerHTML = selectedMessage.content
+    document.getElementById("displayAuthor").innerHTML = selectedMessage.author
+}
 
 // document.querySelector('displayMessage').addEventListener((click) => {
 //     window.location.reload(true);
