@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 10px solid rgb(0, 0, 0);
+}
+
+.floor {
+    width: 414px;
+    margin: auto;
+    background-color: beige;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    flex: 0 0 100%;
+}
+
+.box1 img {
+    width: 100%;
+}
+
+.box2 {
+    flex: 0 0 48%;
+}
+
+.box2 img {
+    width: 100%;
+}
+
+.box3 {
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Fonts */
+
+h1 {
+    font: 700 5rem/6.5rem 'Lato', Helvetica, sans-serif; 
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+#displayMessage {
+    font: 400 1.75rem/2.75rem 'Lato', Helvetica, sans-serif; 
+    text-transform: uppercase;
+    padding: 0.5rem;
+ }
